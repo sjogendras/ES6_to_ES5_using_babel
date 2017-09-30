@@ -1,0 +1,23 @@
+{
+    "name": "es6_to_es5_using_babel",
+    "version": "1.0.0",
+    "description": "Sample application to use ES6 code using babel transpiler",
+    "main": "index.js",
+    "scripts": {
+        "transpile": "babel scripts/index.js --out-file scripts/index-transpiled.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sjogendras/es6_to_es5_using_babel.git"
+    },
+    "author": "Jogendra Singh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sjogendras/es6_to_es5_using_babel/issues"
+    },
+    "homepage": "https://github.com/sjogendras/es6_to_es5_using_babel#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1"
+    }
+}
