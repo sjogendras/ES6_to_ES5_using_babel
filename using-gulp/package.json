@@ -1,0 +1,14 @@
+{
+    "name": "using-gulp",
+    "version": "1.0.0",
+    "description": "how to use babel to convert es65 code to es5 using gulp",
+    "main": "index.js",
+    "author": "Jogendra Singh",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^7.0.0"
+    }
+}
